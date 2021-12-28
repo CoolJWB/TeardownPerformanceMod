@@ -1,8 +1,8 @@
 #include "umf/umf_meta.lua"
 #include "umf/umf_utils.lua"
 
-local VEC_MIN = Vec(-math.huge, -math.huge, -math.huge)
-local VEC_MAX = Vec(math.huge, math.huge, math.huge) 
+VEC_MIN = Vec(-math.huge, -math.huge, -math.huge)
+VEC_MAX = Vec(math.huge, math.huge, math.huge) 
 
 -- UI functions
 	function UiDrawLine(dx, dy, r, g, b, a)
